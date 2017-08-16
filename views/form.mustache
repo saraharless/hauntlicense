@@ -12,6 +12,9 @@ Password -->
   <title>Ghost Forms, Forms For Ghosts</title>
   <link rel="stylesheet" href="/views/styles.css">
 </head>
+{{#errs}}
+<p>{{msg}}</p>
+{{/errs}}
 
 <body>
   <form class="" action="/" method="post">
@@ -26,7 +29,7 @@ Password -->
       <option value="value4">apparition</option>
       <option value="value5">location-focused haunting</option>
     </select><br>
-    <input type="text" name="name" placeholder="password (wordly characters only)" value=""><br>
+    <input type="text" name="pass" placeholder="password (wordly characters only)" value=""><br>
 
 
 
